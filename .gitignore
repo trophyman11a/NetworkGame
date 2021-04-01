@@ -1,0 +1,24 @@
+# gitignore 
+
+## For Cmake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+## For Build output
+build
+xcode_prj
+
+## VSCode 
+.vscode
+
+## Vcpkg
+./externals/vcpkg
